@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="watch__container">
+            <div class="clock" id="Horas">00</div>
+            <div class="clock" id="Minutos">:00</div>
+            <div class="clock" id="Segundos">:00</div>
+            <div class="clock" id="Centesimas">:00</div>
+        </div>
+
+        <div class="btn__controls">
+            <button onclick="stopClock()" class="btn" type="button" id="stop"><i class='bx bx-stop' ></i></button>
+            <button onclick="startClock()" class="btn" type="button" id="start"><i class='bx bx-play' ></i></button>
+            <button onclick="resetClock()" class="btn" type="button" id="replay"><i class='bx bx-sync' ></i></button>
+        </div>
+
+    </div>
+    
+    <script src="/src/index.js"></script>
+
+</body>
+</html>
